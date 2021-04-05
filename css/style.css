@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,p,button,img{
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+	font-family: 'Open Sans', sans-serif;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header part start*/
+.header_part{
+	background: #02918c ;
+}
+.navbar-brand .logo_img{
+	margin-top: -5px;
+}
+.h_menu .nav-item{
+	padding: 2px 17px;
+}
+.h_menu .nav-item:last-child{
+	padding-right: 0px;
+}
+.h_menu .nav-item .nav-link{
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	/*font-family: 'Raleway', sans-serif;*/
+	color: #fff;
+	transition: .4s;
+}
+.bannar_part{
+	background:url(../images/bannar_image.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*padding: 200px 0px 230px 0px;*/
+}
+.bannar_overlay{
+	background: rgba(0, 0, 0, 0.34);
+	}
+.header_con h1{
+	font-size: 68px;
+	font-weight: 800;
+	/*font-family: 'Open Sans', sans-serif;*/
+	text-transform: uppercase;
+	/*padding-top: 142px;*/
+	color: #fff;
+	letter-spacing: 16px;
+}
+.header_con h3{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 400;
+	/*font-family: 'Open Sans', sans-serif;*/
+	padding-top: 200px;
+}
+.header_con h5{
+	font-size: 18px;
+	/*font-family: 'Open Sans', sans-serif;*/
+	color: #fff;
+}
+.bannar_shape{
+	padding: 46px 0px 64px;
+}
+.header_con a{
+	text-decoration: none;
+	font-size: 14px;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-weight: 800;
+	padding: 20px 40px;
+	background: #cfc91d;
+	border: none;
+	color: #000;
+	text-transform: uppercase;
+	border-radius: 10px;
+
+}
+.header_con a:hover{
+	background-color: #bab41a; 
+}
+.bannar_btn{
+	padding-bottom: 230px;
+
+}
+/*header part end*/
+/*about part start*/
+.about_part{}
+.about_part .about_first{
+	padding: 87px 0px 0px;
+}
+.about_part .about_first h2{
+	font-size: 46px;
+	font-weight: 800;
+	color: #02918c;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+.about_part .about_first img{
+	padding: 22px 0px 30px;
+}
+.about_part .about_first p{
+	font-size: 16px;
+	color: #7e8287;
+	/*font-family: 'Open Sans', sans-serif;*/
+	line-height: 2;
+}
+.about_part .about_first .t_bold{
+	font-size: 23px;
+	font-weight: 800;
+}
+.about_part .about_2nd{
+	padding: 54px 0px 94px;
+}
+.about_part .about_2nd .logo_con{
+	border-right: 1px solid #d9dbdb;
+	height: 250px;
+	/*margin-top: 70px;*/
+
+}
+.about_part .about_2nd .logo_con:last-child{
+	border-right: none;
+}
+.about_part .about_2nd .about_all_con{
+	margin-top: 36px;
+}
+.about_part .about_2nd img{}
+.about_part .about_2nd h4{
+	font-style: 16px;
+	font-weight: 800;
+	color: #7e8287;
+	padding: 25px 0px;
+}
+.about_part .about_2nd p{
+	font-size: 11px;
+	color: #7e8287;
+	line-height: 2;
+}
+/*about part end*/
+/*service part start*/
+.service_part{
+	background: url(../images/ser_bannar.jpg) no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 60px 0px 80px;
+}
+.service_part .ser_part1 img{
+	padding: 35px 0px 20px;
+}
+.service_part .ser_part1 h2{
+	font-size: 46px;
+	font-weight: 800;
+	color: #02918c;
+}
+.service_part .ser_part1 p{
+	font-size: 16px;
+	color: #7e8287;
+	line-height: 2;
+}
+.service_part .ser_icon img{
+	padding: 55px 0px 20px;
+}
+.service_part .ser_icon h4{
+	font-size: 16px;
+	font-weight: 800;
+	color: #7e8287;
+}
+.service_part .ser_icon p{
+	font-size: 11px;
+	color: #7e8287;
+	padding-top: 10px;
+}
+/*service part end*/
+/*work part start*/
+.work_part .work{
+	padding: 100px 0px 70px;
+}
+.work_part .work h2{
+	font-size: 46px;
+	font-weight: 800;
+	color: #02918c;
+	padding: ;
+}
+.work_part .work img{
+	padding: 10px 0px;
+}
+.work_part .work p{
+	font-size: 16px;
+	color: #7e8287;
+	line-height: 2;
+}
+.work_part .gellary{
+	margin-left: 60px;
+}
+.work_part .gellary .gly_img{
+/*	padding-right: 0px;*/
+	position: relative;
+}
+.work_part .gellary .gly_img img{
+	height: 100%;
+	width: 100%;
+}
+.gly_overlay{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 85%;
+	width: 85%;
+	background: rgba(2, 145, 140, 0.85);
+	opacity: 0;
+}
+.work_part .gellary .gly_img:hover .gly_overlay{
+	opacity: 1;
+	transition: .4s;
+}
+.gly_overlay h4{
+	font-size: 16px;
+	font-weight: 800;
+	color: #fff;
+	padding-top: 57px;
+}
+.gly_overlay p{
+	font-size: 13px;
+	color: #fff;
+	padding: 16px 0px 40px;
+}
+/*contact part start*/
+.contact_part{
+	padding: 90px 0px 60px;
+	background: #ffffff;
+}
+.contact_part .contact h2{
+	font-size: 46px;
+	font-weight: 800;
+	color: #02918c;
+}
+.contact_part .contact img{
+	padding: 22px 0px 20px;
+}
+.contact_part .contact p{
+	font-size: 16px;
+	color: #7e8287;
+	/*font-family: 'Open Sans', sans-serif;*/
+	line-height: 2.5;}
+/*contact part end*/
+/*footer part start*/
+.footer_part{
+	background: #0b0b0b;
+}
+.footer_part .footer_info{
+	margin: 0 auto;
+}
+.footer_part input{
+	border: none;
+	border-bottom: 2px solid #fff;
+}
+.footer_part .footer_info .name input[type=text]{
+	text-align: center;
+	/*height: 67px;*/
+	width: 638px;
+	margin-left: 140px;
+	padding-top: 57px;
+	color: #fff;
+	background: rgba(11, 11, 11, 0);
+}
+.footer_part .footer_info .mail input[type=email]{
+	text-align: center;
+	/*height: 67px;*/
+	width: 638px;
+	margin-left: 140px;
+	padding-top: 57px;
+	color: #fff;
+	background: rgba(11, 11, 11, 0);
+}
+.footer_part .footer_info .message input[type=text]{
+	/*eight: 60px;*/
+	width: 920px;
+	text-align: center;
+	padding-top: 47px;
+	color: #fff;
+	background: rgba(11, 11, 11, 0);
+}
+.footer_part .f_btn{
+	text-align: center;
+	padding: 77px 0px 80px;
+}
+.footer_part .f_btn a{
+	font-size: 14px;
+	font-weight: 800;
+	color: #0b1016;
+	padding: 15px 65px;
+	background: #cfc91d;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: .4s;
+}
+.footer_part .f_btn a:hover{
+	background-color: #bab41a;
+}
+.footer_part .copy_right_area{
+	background: #000000;
+}
+.footer_part .copy_right_area p{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 800;
+	color: #7e8287;
+	padding: 35px 0px 27px;
+}
